@@ -1,0 +1,29 @@
+.header{
+    display:flex;
+    position: fixed;
+    color: rgba(209, 206, 209, 0.4);
+    font-size: 20px;
+    line-height: 70px;
+    box-shadow: 0 3px 5px rgba(112, 111, 111, 0.3);
+}
+.container{
+    display: flex;
+    flex: 1;
+    height: 100px;
+    align-items: center; 
+    justify-content: end; 
+    white-space: nowrap;
+}
+.adjust-container{
+    display: flex;
+
+}
+.child{
+    margin: 0 0px;
+    padding: 0 5px;
+}
+  .link{
+    margin: 0 20px;
+    text-decoration: none;
+    color:blanchedalmond;
+  }

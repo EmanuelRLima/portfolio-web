@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=BenchNine:wght@300&display=swap');
+
+.text-welcome{
+    position: absolute;
+    width: 70%;
+    top: 45%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+    color: #fff;
+    font-family: 'BenchNine', sans-serif;
+    animation-name: op;
+    animation-duration: 4s;
+}
+
+.seta{
+    position: absolute;
+    margin-right: -50%;
+    transform: translate(-50%, 180%);
+    width: 80px;
+    animation-name: arrowmove;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes op {
+    0%{
+        opacity: 0%;
+    }
+    100%{
+        opacity: 100%;
+    }
+}
+@keyframes arrowmove {
+    0% {
+        top:78%;
+    }50% {
+        top:81%;
+    }100% {
+        top:78%;     
+    }  
+}
+
+
+
+
+
+
+
+
+
