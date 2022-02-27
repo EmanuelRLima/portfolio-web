@@ -1,5 +1,5 @@
 .header{
-    display:flex;
+    z-index: 1;
     position: fixed;
     color: rgba(209, 206, 209, 0.4);
     font-size: 20px;
@@ -20,7 +20,7 @@
 }
 .child{
     margin: 0 0px;
-    padding: 0 5px;
+    padding: 0 0px;
 }
   .link{
     margin: 0 20px;

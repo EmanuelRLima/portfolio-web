@@ -12,6 +12,7 @@ import {MatSidenavModule} from '@angular/material/sidenav';
 import {MatListModule} from '@angular/material/list';
 import { StartComponent } from './component/views/start/start.component';
 import { ConteudoComponent } from './component/conteudo/conteudo.component';
+import { CurriculoComponent } from './component/views/curriculo/curriculo.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { ConteudoComponent } from './component/conteudo/conteudo.component';
     NavComponent,
     HeaderComponent,
     StartComponent,
-    ConteudoComponent
+    ConteudoComponent,
+    CurriculoComponent
   ],
   imports: [
     BrowserModule,
