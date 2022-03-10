@@ -46,3 +46,18 @@ body{
         top:78%;     
     }  
 }
+
+@media only screen and (max-height: 600px) {
+    .text-welcome{
+        top: 50%;
+    }
+    .seta{
+        position: absolute;
+        margin-right: -50%;
+        transform: translate(-50%, 100%);
+        width: 80px;
+        animation-name: arrowmove;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+    }
+  }
