@@ -13,6 +13,9 @@ import {MatListModule} from '@angular/material/list';
 import { StartComponent } from './component/views/start/start.component';
 import { ConteudoComponent } from './component/conteudo/conteudo.component';
 import { CurriculoComponent } from './component/views/curriculo/curriculo.component';
+import { SobreComponent } from './component/views/sobre/sobre.component';
+import { ContatoComponent } from './component/views/contato/contato.component';
+import { FooterComponent } from './component/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +24,10 @@ import { CurriculoComponent } from './component/views/curriculo/curriculo.compon
     HeaderComponent,
     StartComponent,
     ConteudoComponent,
-    CurriculoComponent
+    CurriculoComponent,
+    SobreComponent,
+    ContatoComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
