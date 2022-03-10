@@ -5,6 +5,7 @@
     height: 965px;
     background-color: ghostwhite;
 }
+
 .tex{
     width: 75%;
     padding: 5% 0 1% 12.5%;
@@ -15,7 +16,18 @@
     animation-name: op;
     animation-duration: 4s;
 }
-
+.Projetos{
+    display: none;
+    position: absolute;
+    top: 42%;
+    left: 50%;
+    background-color: aqua;
+    margin-right: -50%;
+    transform: translate(-50%, 80%);
+    z-index: 1;
+    width: 1300px;
+    height: 800px;
+}
 
 .d:hover{
     opacity: 85%;
@@ -23,7 +35,16 @@
 .c:hover{
     opacity: 85%;
 }
-
+.exe{
+    width: 42px;
+    height: 39px;
+    float: right;
+    cursor: pointer;
+    object-fit: cover;
+    margin: 12px 12px 0 0;
+    animation-name: op;
+    animation-duration: 2s;
+}
 .c{
     width: 500px;
     height: 400px;
