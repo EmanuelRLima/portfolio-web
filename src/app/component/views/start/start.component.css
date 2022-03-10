@@ -17,7 +17,7 @@
     animation-duration: 4s;
 }
 .Projetos{
-    display: none;
+    display: block;
     position: absolute;
     top: 42%;
     left: 50%;
@@ -27,8 +27,15 @@
     z-index: 1;
     width: 1300px;
     height: 800px;
+    animation-name: op;
+    animation-duration: 1s;
 }
-
+.btn{
+    margin: 0 0 0 30px;
+    text-align: center;
+    width: 160px;
+    height: 30px;
+}
 .d:hover{
     opacity: 85%;
 }
