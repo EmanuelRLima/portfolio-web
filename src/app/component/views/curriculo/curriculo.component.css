@@ -15,7 +15,6 @@
     font-family: 'Roboto Serif', sans-serif;
     font-size: 25px;
 }
-
 .seta{
     position: absolute;
     margin-right: -50%;
@@ -34,11 +33,10 @@
     text-align: center;
     display: flex;
 }
-.educacion{
+.educacion, .hb{
     display: flex;   
 }
 .hb{
-    display: flex;
     margin: 0 0 0 10%;
 }
 .estacio{
@@ -47,7 +45,6 @@
 .IF{
     margin: 0 2% 0 0;
 }
-
 .img{
     width: 250px;
     height: 200px;
@@ -59,209 +56,175 @@
     display: flex;   
     margin: 0 0 0 16%;  
 }
-
 .extra{
     margin: 0 18% 0 0;
 }
 
 /* PONTOS DE QUEBRA */ 
 @media only screen and (max-width: 1700px) {
-
-    .formacao{
-        width: 75%;
-        padding: 3% 0 1% 18.4%;
-        text-align: center;
-        display: flex;
-    }
-  }
-  @media only screen and (max-width: 1500px) {
-    .main{
-        height: 1700px;
-    }
-    .formacao{
-        width: 75%;
-        padding: 3% 0 1% 15.4%;
-        text-align: center;
-        display: flex;
-    }
-    .seta{
-        transform: translate(-50%, 3350%);
-    }
-  }
-
-  @media only screen and (max-width: 1300px) {
-    .main{
-        height: 1700px;
-    }
-    .formacao{
-        width: 75%;
-        padding: 3% 0 1% 12.4%;
-        text-align: center;
-        display: flex;
-    }
-    .hb{
-        margin: 0 0 0 8.5%;
-    }
-    .seta{
-        transform: translate(-50%, 3300%);
-    }
-  }
-  @media only screen and (max-width: 1150px) {
-    .hb{
-        margin: 0 0 0 2%;
-    }
+.formacao{
+    width: 75%;
+    padding: 3% 0 1% 18.4%;
+    text-align: center;
+    display: flex;
 }
-  @media only screen and (max-width: 1000px) {
-    .main{
-        height: 1450px;
-    }
-    .formacao{
-        width: 75%;
-        padding: 3% 0 1% 12.4%;
-        text-align: center;
-        display: flex;
-    }
-    .hb{
-        margin: none;
-    }
-    .img{
-        width: 200px;
-        height: 150px;
-    }
-    .seta{
-        transform: translate(-74%, 2998%);
-    }
-  }
+}
+@media only screen and (max-width: 1500px) {
+.main{
+    height: 1700px;
+}
+.formacao{
+    padding: 3% 0 1% 15.4%;
+}
+.seta{
+    transform: translate(-50%, 3350%);
+}
+}
+@media only screen and (max-width: 1300px) {
+.main{
+    height: 1700px;
+}
+.formacao{
+    padding: 3% 0 1% 12.4%;
+}
+.hb{
+    margin: 0 0 0 8.5%;
+}
+.seta{
+    transform: translate(-50%, 3300%);
+}
+}
+@media only screen and (max-width: 1150px) {
+.hb{
+    margin: 0 0 0 2%;
+}
+}
+@media only screen and (max-width: 1000px) {
+.main{
+    height: 1450px;
+}
+.formacao{
+    padding: 3% 0 1% 12.4%;
+}
+.hb{
+    margin: none;
+}
+.img{
+    width: 200px;
+    height: 150px;
+}
+.seta{
+    transform: translate(-74%, 2998%);
+}
+}
   @media only screen and (max-width: 850px) {
-    .main{
-        height: 1450px;
-    }
-    .formacao{
-        width: 75%;
-        padding: 3% 0 1% 9.4%;
-        text-align: center;
-        display: flex;
-    }
-    .hb{
-        margin: none;
-    }
-    .img{
-        width: 180px;
-        height: 140px;
-    } 
-    .seta{
-        transform: translate(-50%, 3050%);
-    }
-  }
+.main{
+    height: 1450px;
+}
+.formacao{
+    padding: 3% 0 1% 9.4%;
+}
+.hb{
+    margin: none;
+}
+.img{
+    width: 180px;
+    height: 140px;
+} 
+.seta{
+    transform: translate(-50%, 3050%);
+}
+}
 
   @media only screen and (max-width: 790px) {
-    .main{
-        height: 1400px;
-    }
-    .formacao{
-        width: 75%;
-        padding: 3% 0 1% 5.4%;
-        text-align: center;
-        display: flex;
-    }
-    .hb{
-        margin: none;
-    }
-    .img{
-        width: 150px;
-        height: 120px;
-    } 
-    .seta{
-        transform: translate(-50%, 2950%);
-    }
-  }
-  @media only screen and (max-width: 660px) {
-    .main{
-        height: 2200px;
-    }
-    .formacao{
-        width: 75%;
-        padding: 3% 0 1% 21.4%;
-        text-align: center;
-        display: flex;
-    }
-    .educacion{
-        margin: 0 0 0 -5%;
-    }
-    .hb{
-        margin: none;
-    }
-    .img{
-        width: 150px;
-        height: 120px;
-    } 
-    .educacion , .xp , .hb{
-        display: block;
-    }
-    .xp{
-        margin: 0 0 0 14%;
-    }
-    .extra , .IF{
-        margin: 0 0 0 0;
-    }
-    .estacio{
-        width: auto;
-    }
-    .seta{
-        transform: translate(-50%, 3980%);
-    }
-  }
-  @media only screen and (max-width: 530px) {
-    .formacao{
-        width: 75%;
-        padding: 3% 0 1% 17.4%;
-        text-align: center;
-        display: flex;
-    }
-  } 
+.main{
+    height: 1400px;
+}
+.formacao{
+    padding: 3% 0 1% 5.4%;
+}
+.hb{
+    margin: none;
+}
+.img{
+    width: 150px;
+    height: 120px;
+} 
+.seta{
+    transform: translate(-50%, 2950%);
+}
+}
+@media only screen and (max-width: 660px) {
+.main{
+    height: 2200px;
+}
+.formacao{
+    padding: 3% 0 1% 21.4%;
+}
+.educacion{
+    margin: 0 0 0 -5%;
+}
+.hb{
+    margin: none;
+}
+.img{
+    width: 150px;
+    height: 120px;
+} 
+.educacion , .xp , .hb{
+    display: block;
+}
+.xp{
+    margin: 0 0 0 14%;
+}
+.extra , .IF{
+    margin: 0 0 0 0;
+}
+.estacio{
+    width: auto;
+}
+.seta{
+    transform: translate(-50%, 3980%);
+}
+}
+@media only screen and (max-width: 530px) {
+.formacao{
+    padding: 3% 0 1% 17.4%;
+}
+} 
   @media only screen and (max-width: 480px) {
-    .formacao{
-        width: 75%;
-        padding: 3% 0 1% 14.4%;
-        text-align: center;
-        display: flex;
-    }
-    .educacion{
-        margin: 0 0 0 -5%;
-    }
-    .xp{
-        margin: 0 0 0 12.8%;
-    }
-    .hb{
-        margin: 0 0 0 3.9%;
-    }
-    .seta{
-        transform: translate(-50%, 4000%);
-    }
-  }
-
-  @media only screen and (max-width: 370px) {
-    .main{
-        background-color: aqua;
-        width: 100%;
-        height: 2390px;
-    }
-    .formacao{
-        width: 75%;
-        padding: 3% 0 1% 14.4%;
-        text-align: center;
-        display: flex;
-    }
-    .xp{
-        margin: 0 0 0 7%;
-    }
-    .seta{
-        transform: translate(-50%, 4240%);
-    }
-  }
-
-  @media only screen and (max-width: 350px) {
-    .xp{
-        margin: 0 0 0 0%;
-    }
-  }
+.formacao{
+    padding: 3% 0 1% 14.4%;
+}
+.educacion{
+    margin: 0 0 0 -5%;
+}
+.xp{
+    margin: 0 0 0 12.8%;
+}
+.hb{
+    margin: 0 0 0 3.9%;
+}
+.seta{
+    transform: translate(-50%, 4000%);
+}
+}
+@media only screen and (max-width: 370px) {
+.main{
+    height: 2390px;
+}
+.formacao{
+    padding: 3% 0 1% 14.4%;
+}
+.xp{
+    margin: 0 0 0 7%;
+}
+.seta{
+    transform: translate(-50%, 4240%);
+}
+}
+@media only screen and (max-width: 350px) {
+.xp{
+    margin: 0 0 0 0%;
+}
+}

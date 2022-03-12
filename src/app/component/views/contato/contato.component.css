@@ -24,26 +24,25 @@
     animation-duration: 4s;
 }
 @media only screen and (max-width: 1770px) {
-    .main{
-        height: 620px;
-    }
+.main{
+    height: 620px;
 }
 
+}
   @media only screen and (max-width: 1000px) {
-    .main{
-        height: 490px;
-    }
+.main{
+    height: 490px;
 }
 
-  @media only screen and (max-width: 450px) {
-    .main{
-        height: 610px;
-    }
-  }
+}
+@media only screen and (max-width: 450px) {
+.main{
+    height: 610px;
+}
 
-
-  @media only screen and (max-width: 290px) {
-    .main{
-        height: 630px;
-    }
-  }
+}
+@media only screen and (max-width: 290px) {
+.main{
+    height: 630px;
+}
+}
